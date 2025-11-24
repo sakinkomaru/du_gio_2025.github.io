@@ -1,0 +1,98 @@
+html{
+    background-color: #EE5B22;
+}
+
+body{
+    background-color: #FFF5EC;
+    width: 90%;
+    height: 90%;
+    border-radius: 5%;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.stick-regular {
+  font-family: "Stick", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wdxl-lubrifont-jp-n-regular {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form{
+    margin-top: 10rem;
+}
+
+.title,.sub_title{
+    text-align: center;
+}
+
+.title{
+    font-size: 8rem;
+}
+
+.sub_title{
+    font-size: 4rem;
+}
+
+.Q_size{
+    font-size: 8rem;
+    margin-right: 2.5rem;
+    margin-left: 3.5rem;
+}
+
+.sentence_size{
+    font-size: 4rem;
+}
+
+.p_size{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.question{
+    display: flex;
+}
+
+.choices_container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;   
+}
+
+.choice_box{
+    background-color: antiquewhite;
+    height: 15rem;
+    width: 50rem;
+    border-radius: 5%;
+    display: flex; 
+    /* 子要素（.p_size）を主軸方向（横方向）の中央に配置 */
+    justify-content: center; 
+    /* 子要素（.p_size）を交差軸方向（縦方向）の中央に配置 */
+    align-items: center;
+    box-shadow: 0 10px 0 #EE5B22;
+}
+
+.choice_box .p_size{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3ren;
+}
+
+.choice_box:hover{
+    transform: translateY(4px);
+    box-shadow: none;
+}
