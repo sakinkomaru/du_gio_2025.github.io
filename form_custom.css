@@ -1,8 +1,9 @@
 html{
     background-color: #EE5B22;
+    position: relative;
 }
 
-body{
+.white_box{
     background-color: #FFF5EC;
     width: 90%;
     height: 90%;
@@ -12,6 +13,7 @@ body{
     margin-right: auto;
     padding-top: 1.5rem;
     padding-bottom: 5rem;
+    text-align: center;
 }
 
 a{
@@ -87,7 +89,6 @@ a{
 }
 
 .choice_box .p_size{
-    text-align: center;
     font-size: 3rem;
     padding-top: 3ren;
 }
@@ -95,4 +96,27 @@ a{
 .choice_box:hover{
     transform: translateY(4px);
     box-shadow: none;
+}
+
+.result_size{
+    font-size: 3rem;
+    padding: 1rem;
+}
+.result_img{
+    width: 90%;
+    height: auto;
+}
+
+
+.title_bottom,.sub_title_bottom{
+    text-align: center;
+    color: #FFF5EC;
+}
+
+.title_bottom{
+    font-size: 4rem;
+}
+
+.sub_title_bottom{
+    font-size: 2rem;
 }
